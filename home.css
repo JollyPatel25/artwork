@@ -1,0 +1,42 @@
+body{
+	font-family: Oswald;
+}
+.nav_bar{
+position: fixed;
+
+}
+.nav_bar ul{
+	list-style: none;
+	display: inline-flex;
+}
+.nav_bar ul li{
+	background-color: #2B2B2B;
+	width: 235px;
+	border:1px solid black;
+	height: 60px;
+	line-height:50px;
+	text-align:center;
+	float: left;
+	color:white;
+	font-size: 27px;
+	text-align: center;
+	position: relative;
+}
+.nav_bar ul li:hover{
+	background:green ;
+}
+.nav_bar ul ul{
+	display: none;
+
+}
+.nav_bar ul li:hover>ul{
+	display: block ;
+	position: relative;
+}
+a{
+	text-decoration: none;
+}
+.nav_bar ul li.active {
+  background-color:green;
+  color: white;
+}

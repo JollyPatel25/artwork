@@ -1,0 +1,43 @@
+body{
+	background-image: url("h1.jpg");
+   background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+.loginbox{
+	text-align: center;
+	height:365px;
+	width: 200px;
+	background: #FFED99;
+	color: #000;
+	top:-150px;
+	left:-35px;
+	transform: translate(305%,95%);
+	box-sizing: border-box;
+	position:absolute;
+	opacity: 0.8;
+
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#symbol{
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	position:absolute;
+	top:-225px;
+	left: -460px;
+	transform: translate(650%,200%);
+}
